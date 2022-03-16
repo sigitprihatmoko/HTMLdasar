@@ -1,0 +1,39 @@
+a link {
+  color: red;
+  text-decoration: none;
+}
+
+.judul h2 {
+  color: red;
+  text-decoration: none;
+}
+.about h2 {
+  justify-content: center;
+  text-align: center;
+}
+.about p {
+  /* animation-duration: 3s;
+  animation-name: slidein; */
+  animation: Fade 5s linear 1s forwards;
+}
+@keyframes Fade {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.form > p {
+  text-align: center;
+  color: red;
+}
+
+footer {
+  justify-content: center;
+  text-align: center;
+}
